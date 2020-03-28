@@ -44,7 +44,7 @@ for(i = 0; i < hours; i++){
         input.setAttribute("style", "background-color: red;");
     }
     else if(hour < inputId[i]){
-        input.setAttribute("style", "background-color: green;");
+        input.setAttribute("style", "background-color: lightgrey;");
     }
     else{
         input.setAttribute("style", "background-color: whitesmoke");
